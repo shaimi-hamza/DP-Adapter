@@ -15,6 +15,7 @@ public class App {
         HdmiVgaAdapter hdmiVgaAdapter = new HdmiVgaAdapter();
         hdmiVgaAdapter.setHdmi(new TV());
         uniteCentrale.setVga(hdmiVgaAdapter);
+        hdmiVgaAdapter.print("Bonjour Hshaimi SDIA");
 
     }
 }

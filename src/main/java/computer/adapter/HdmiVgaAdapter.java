@@ -10,7 +10,7 @@ public class HdmiVgaAdapter implements Vga {
     public void print(String message) {
         System.out.println("__________Adapter__________");
         byte[] data = message.getBytes();
-        Hdmi.view(data);
+        hdmi.view(data);
         System.out.println("__________Adapter__________");
     }
 
